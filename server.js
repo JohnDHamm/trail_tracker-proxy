@@ -3,7 +3,7 @@
 const express = require('express')
 const app = express();
 
-const PORT = process.env.PORT || 6000
+const PORT = process.env.PORT || 6660
 app.set('port', PORT)
 
 // MIDDLEWARE (transform stream)
@@ -13,7 +13,7 @@ app.set('port', PORT)
 //   next();
 // });
 
-// WEATHERUNDERGROUNG PROXY
+// WEATHERUNDERGROUND PROXY
 app.get('/t/*', (req, res) => {
 	console.log("req.body: ", req.body);
   // let newURL = `${req.url}`.replace(/%22/g, '"');
