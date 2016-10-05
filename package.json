@@ -1,0 +1,26 @@
+{
+  "name": "trail_tracker-proxy",
+  "version": "1.0.0",
+  "description": "proxy node server on Heroku for deploying trail tracker app on firebase",
+  "main": "server.js",
+  "engines": {
+    "node": "6.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnDHamm/trail_tracker-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnDHamm/trail_tracker-proxy/issues"
+  },
+  "homepage": "https://github.com/JohnDHamm/trail_tracker-proxy#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
