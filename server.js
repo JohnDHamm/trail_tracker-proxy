@@ -19,7 +19,7 @@ app.set('port', PORT)
 app.get('/*', (req, res) => {
 	console.log("req.url: ", req.url);
 	const coordinates = req.url;
-	const weatherCallURL = `http://api.wunderground.com/api/f86d6fa04b4dd2cd/conditions/q${coordinates}.json`
+	const weatherCallURL = `https://api.wunderground.com/api/f86d6fa04b4dd2cd/conditions/q${coordinates}.json`
 	request.get(weatherCallURL, (err, _, body) => {
     // console.log("body: ", body);
     res.send(body)
