@@ -21,8 +21,8 @@ app.get('/*', (req, res) => {
 	const coordinates = req.url;
 	const weatherCallURL = `http://api.wunderground.com/api/f86d6fa04b4dd2cd/conditions/q${coordinates}.json`
 	request.get(weatherCallURL, (err, _, body) => {
-    console.log("body: ", body);
-    // res.send(body)
+    // console.log("body: ", body);
+    res.send(body)
   });
 })
 
