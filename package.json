@@ -4,7 +4,7 @@
   "description": "proxy node server on Heroku for deploying trail tracker app on firebase",
   "main": "server.js",
   "engines": {
-    "node": "6.5.0"
+    "node": "6.11.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
